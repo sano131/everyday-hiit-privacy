@@ -22,6 +22,11 @@
             color: #ff8c00;
             margin-bottom: 8px;
         }
+        .subtitle {
+            color: #888;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
         h2 {
             font-size: 20px;
             color: #ff8c00;
@@ -30,7 +35,7 @@
             padding-bottom: 4px;
             border-bottom: 1px solid #333;
         }
-        p {
+        p, li {
             font-size: 15px;
             margin-bottom: 12px;
         }
@@ -38,8 +43,13 @@
             padding-left: 20px;
             margin-bottom: 16px;
         }
-        li { margin-bottom: 8px; }
         a { color: #4fc3f7; }
+        .contact-box {
+            background: #252540;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 24px;
+        }
         .footer {
             margin-top: 60px;
             padding-top: 20px;
@@ -52,24 +62,37 @@
 <body>
     <div class="container">
         <h1>サポート</h1>
-        <p>Everyday HIIT をご利用いただきありがとうございます。</p>
+        <p class="subtitle">Everyday HIIT — 毎日カンタン運動習慣</p>
+
+        <h2>アプリについて</h2>
+        <p>Everyday HIITは、毎日たった4分で運動習慣を身につけるためのHIITトレーニングアプリです。初心者向けのエクササイズを中心に、タイマーに従って運動するだけで効率的なトレーニングができます。</p>
 
         <h2>よくある質問</h2>
 
-        <p><strong>Q. ワークアウトの記録が消えてしまった</strong></p>
-        <p>A. アプリを削除すると記録も消去されます。アプリの再インストールでは記録を復元できませんのでご注意ください。</p>
+        <p><strong>Q. ワークアウト中にアプリを閉じても大丈夫？</strong></p>
+        <p>はい。タイマーはバックグラウンドでも正確に動作します。アプリを再度開くと、正しい位置から再開されます。Live ActivityやDynamic Islandでも進捗を確認できます。</p>
 
         <p><strong>Q. 通知が届かない</strong></p>
-        <p>A. iPhoneの「設定」→「通知」→「Everyday HIIT」で通知が許可されているかご確認ください。</p>
+        <p>iOS の設定 → Everyday HIIT → 通知 から、通知が許可されているか確認してください。</p>
 
-        <p><strong>Q. タイマーがバックグラウンドで止まる</strong></p>
-        <p>A. Live ActivityやDynamic Islandでタイマーの進捗を確認できます。アプリを前面に戻すとタイマーは正しい時間に同期されます。</p>
+        <p><strong>Q. データを削除したい</strong></p>
+        <p>アプリを削除すると、すべてのデータが消去されます。データは端末内にのみ保存されています。</p>
+
+        <p><strong>Q. ロック画面にタイマーが表示されない</strong></p>
+        <p>iOS の設定 → Everyday HIIT → Live Activity が有効になっているか確認してください。</p>
+
+        <p><strong>Q. ワークアウトの記録が消えてしまった</strong></p>
+        <p>アプリを削除すると記録も消去されます。アプリの再インストールでは記録を復元できませんのでご注意ください。</p>
 
         <h2>お問い合わせ</h2>
-        <p>上記で解決しない場合は、App Store のレビュー欄またはアプリ内からお問い合わせください。</p>
+        <div class="contact-box">
+            <p>不具合の報告やご要望がありましたら、お気軽にご連絡ください。</p>
+            <p>メール: <a href="mailto:h.sano0702@gmail.com">h.sano0702@gmail.com</a></p>
+        </div>
 
         <div class="footer">
             <p>&copy; 2026 Everyday HIIT. All rights reserved.</p>
+            <p><a href="index.html">プライバシーポリシー</a></p>
         </div>
     </div>
 </body>
